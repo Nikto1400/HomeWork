@@ -1,0 +1,23 @@
+.box{
+    max-width: 1500px;
+    min-width: 800px;
+    max-height: 600px;
+    min-height: 600px;
+    overflow: auto;
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.kart{
+    box-sizing: border-box;
+    width: 250px;
+    height: 200px ;
+    background: #caaa40;
+    border-radius: 5px;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 5px #333 inset;
+    margin: 5px 5px 2px 5px;
+    padding: 0px 0px 0px 15px ;
+    display: inline-block;
+}
