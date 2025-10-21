@@ -1,0 +1,43 @@
+.text-1 {
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.text-2 {
+    text-decoration: line-through;
+}
+
+.text-3 {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.text-4 {
+    text-decoration: wavy overline #333;
+    text-shadow: 1px 2px 3px #e100ff;
+    word-spacing: 30px;
+}
+
+.text-5 {
+    letter-spacing: 5px;
+    text-decoration: double underline purple 3px;
+}
+
+.ka-pro {
+    font-family: Permanent Marker;
+    width: 1980px;
+    height: 500px;
+    background: #01ffff;
+    color: #ffee00c0;
+    font-weight: 700;
+    text-align: center;
+    padding: 250px;
+    font-size: 400px;
+    text-shadow: 10px 10px 5px #fe0000;
+
+
+}
