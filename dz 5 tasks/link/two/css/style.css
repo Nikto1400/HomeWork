@@ -1,0 +1,34 @@
+body {
+    background: #EEAECA;
+    background:  radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.line {
+    position: fixed;
+    top: 500px;
+    left: 50%;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    width: 600px;
+    height: 100px;
+    background:#fff;
+    border-radius: 100px;
+}
+
+.circle{ 
+    width:100px ;
+    height:100px ;
+    border-radius: 100%;
+    position: fixed;
+    top: 450px;
+    left: 800px;
+    background: #ff0000;
+}
+
+.bob:hover{ 
+    background: #00ff9d;    
+}
+.bob-2:hover { 
+    background: #000000;    
+}
+
