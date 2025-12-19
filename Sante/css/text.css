@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'MC Twinkle Star';
+    src: local('MC Twinkle Star'), local('MCTwinkleStar'),
+        url('/fonts/MCTwinkleStar.woff2') format('woff2'),
+        url('/fonts/MCTwinkleStar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NK123';
+    src: local('NK123'),
+        url('/fonts/NK123.woff2') format('woff2'),
+        url('/fonts/NK123.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

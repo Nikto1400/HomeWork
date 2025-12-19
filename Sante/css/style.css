@@ -1,0 +1,161 @@
+* {box-sizing:border-box;}
+
+body {
+    background: #383F5E;
+}
+
+
+
+.p-title { 
+    font-family: NK123 ;
+    font-size: 50px;
+    color: #165B33;
+}
+
+.card-container {
+    perspective: 1000px;
+    width: 800px;
+    height: 550px;
+    margin: 20px auto auto;
+    cursor: pointer;
+
+}
+
+.card-cover,
+.card-inner {
+    color:#165B33 ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    border: 10px solid transparent;
+    border-image: 10 repeating-linear-gradient(45deg, 
+    #165B33, #165B33 10px, 
+    transparent 10px, 
+    transparent 20px,#BB2528 20px, #BB2528 30px,
+    transparent 30px, transparent 40px);
+}
+
+
+
+.card-cover {
+    background-color: #F6EACA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.card-inner {
+    background-color: #F6EACA;
+    transform: rotateY(180deg);
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.card-container.flipped .card-cover {
+    transform: rotateY(-180deg);
+}
+
+.card-container.flipped .card-inner {
+    transform: rotateY(0deg);
+}
+
+.title-text {
+    margin: 0;
+    font-size: 80px;
+    color: #095e2e;
+    
+}
+
+.my-border { 
+    border: 2px dashed red;
+    padding: 0; 
+    position: absolute;
+    top: 450px ;
+    left: 15px;
+}
+
+.name-my { 
+    padding: 5px;
+    margin: 0;
+}
+
+.name-santa{
+    padding: 5px;
+    margin: 0;
+}
+
+.my { 
+    border-bottom: 2px;
+
+}
+
+
+.one { 
+    position: absolute;
+    left: 10px;
+    width: 350px;
+    height: 500px;
+    background: none;
+    text-align: center;
+}
+
+.form-one { 
+    width: 340px;
+    height: 480px;
+}
+
+fieldset { 
+    border:none;
+}
+
+.two { 
+    position: absolute;
+    left: 350px;
+    width: 400px;
+    height: 500px;
+}
+
+.hy { 
+    font-size: 40px;
+}
+
+.hy-my { 
+    font-size: 20px;
+
+}
+
+li{
+    padding: 5px;
+}
+
+.two{ 
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.ul-border { 
+    border: 2px solid rgba(255, 0, 0, 0.699);
+    border-radius: 10px;
+}
+
+.plan { 
+    text-align: center;
+    font-size: 30px;
+}
+
+.huy { 
+    font-size: 40px;
+    text-align: center;
+}
+
+p { 
+    text-align: center;
+}
