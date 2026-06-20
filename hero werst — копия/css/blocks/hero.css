@@ -1,0 +1,25 @@
+.hero__container { 
+    position: relative;
+    margin-top: 117px;
+}
+
+.hero__img-box{ 
+    position: relative;
+    width: 100%;
+    height:100%;
+}
+.hero__img{
+    position: absolute;
+    z-index: var(--layer-negative);
+    
+}
+.hero__star{
+    position: absolute;
+    top: 260px;
+    right: 550px;
+}
+.hero__star-two{
+    position: absolute;
+    top: 90px;
+    right: 120px;
+}
