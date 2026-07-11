@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+  <script defer src="./js/index.js" type="module"></script>
+  <title>Document</title>
+</head>
+
+<body class="page__body">
+  <div class="register">
+    <div class="reg__menu">
+      <p class="reg__item">Зарегестрируйтесь и получите скидку 20% на первую покупку.</p>
+      <p class="reg__item--open">
+        <a class="reg__item-link" href="#">Зарегестрироваться сейчас</a>
+      </p>
+    </div>
+
+    <div class="reg__box">
+      <svg class="reg__closed" width="20" height="20" aria-hidden="true">
+        <use href="./icons/sprite.svg#closed__reg"></use>
+      </svg>
+    </div>
+  </div>
+  <header class="header">
+    <div class="container header__container">
+      <button class="header__burger burger" aria-label="Открыть меню" aria-expanded="false"
+        aria-controls="header__menu">
+        <svg width="24" height="24">
+          <use class="burger__icon-menu " href="icons/sprite.svg#menu-burger">
+          </use>
+          <use class="burger__icon-cross" href="icons/sprite.svg#menu-cross">
+          </use>
+        </svg>
+      </button>
+
+      <a href="#" class="logo header__logo">
+        <img class="logo__img" src="./imgs/SHOP.CO.png" width="200" height="100" alt="Логотип Nike">
+      </a>
+      <nav class="menu header__menu " id="header__menu" aria-label="Главное меню">
+        <ul class="menu__list ">
+          <li class="menu__item">
+            <a class="menu__link " href="#air-mag" lang="en">
+              Магазин
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link " href="#sizes">
+              Скидки
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link " href="#characteristics">
+              Новые поступления
+            </a>
+          </li>
+          <li class="menu__item kek__icon">
+            <a class="menu__link " href="#top-models">
+              Бренды
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div>
+        <input class="header__input" type="text" placeholder="Искать товары...">
+      </div>
+
+      <div class="header__controls">
+
+        <div class="header__actions">
+
+          <button class="header__actions-button kek" aria-label="поиск" title="поиск">
+            <svg width="24" height="24">
+              <use class="header__actions-icon" href="icons/sprite.svg#loop"></use>
+            </svg>
+          </button>
+
+          <button class="header__actions-button" aria-label="поиск" title="поиск">
+            <svg width="24" height="24">
+              <use class="header__actions-icon" href="icons/sprite.svg#search"></use>
+            </svg>
+          </button>
+
+          <button class="header__actions-button" aria-label="корзина" title="корзина">
+            <svg width="24" height="24">
+              <use class="header__actions-icon" href="icons/sprite.svg#cart"></use>
+            </svg>
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section section__hero ">
+    <div class="hero">
+
+      <div class="hero__container-one">
+        <!-- тут будет h1 p button  и еще 1 див в котором буцдет 3 карточки  -->
+        <h1 class="hero__title">НАЙДИ ОДЕЖДУ КОТОРАЯ ВЫРАЗИТ ТВОЙ СТИЛЬ</h1>
+        <p class="hero__text">Просмотрите наш набор тщательно сделанной одежды, созданный чтобы подчеркнуть ваш
+          индивидуальный стиль.</p>
+        <button class="hero__button">Купить сейчас</button>
+        <!-- тут будет контейнер с карточками их будет 3  -->
+        <div class="hero__carts">
+          <div class="cart item-1">
+            <h2 class="cart__title">200+</h2>
+            <p class="text__title">Всемирных брендов</p>
+          </div>
+          <div class="border__box un"></div>
+          <div class="cart item-2 ">
+            <h2 class="cart__title">2,000+</h2>
+            <p class="text__title">Качественных товаров</p>
+          </div>
+          <div class="border__box "></div>
+          <div class="cart item-3">
+            <h2 class="cart__title">30,000+</h2>
+            <p class="text__title">Счастливых клиентов</p>
+          </div>
+        </div>
+      </div>
+      <!-- тут будет фото со звездочками  -->
+      <div class="hero__container-two">
+        <picture class="hero__img">
+          <source srcset="./imgs/new-foto.webp" type="image/webp">
+          <img src="./imgs/new-foto.png" alt="Парень с Девушкорй в брендированной одежде" width="640" height="600">
+        </picture>
+      </div>
+    </div>
+  </section>
+  <section class="section section__brends">
+    <div class="brends">
+      <div class="brends__carts">
+        <!-- <picture class="hero__img">
+          <source srcset="./imgs/new-foto.webp" type="image/webp">
+          <img src="./imgs/new-foto.png" alt="Парень с Девушкорй в брендированной одежде" width="640" height="600">
+        </picture> -->
+        <img class="bren-title" src="./imgs/brends/versace.png" alt="versace">
+        <img class="bren-title" src="./imgs/brends/zara.png" alt="zara">
+        <img class="bren-title" src="./imgs/brends/gucci-logo-1 1.png" alt="gucci">
+        <img class="bren-title" src="./imgs/brends/prada.png" alt="prada">
+        <img class="bren-title" src="./imgs/brends/sex.png" alt="Calvin Kleiin">
+      </div>
+    </div>
+  </section>
+  <section class="section section__new-arrivals">
+    <div class="container container__new-arrials">
+      <h2 class="new__arrivals-title">НОВЫЕ ПОСТУПЛЕНИЯ</h2>
+      <div class="new__arrivals-carts">
+        <div class="new__arrivals-cart">
+          <picture class="new__arrivals-img">
+            <source srcset="./imgs/new-arrivals/black.webp" type="image/webp">
+            <img src="./imgs/new-arrivals/black.png" alt="Парень с Девушкорй в брендированной одежде" width="295"
+              height="298">
+          </picture>
+          <p class="new__arrivals-text">Футболка с лентой</p>
+          <div class="new__arrivals-box">
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="8" height="14">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart-two"></use>
+            </svg>
+            <p class="new__arrivals-estimation"> 4.5/ <span class="accent__estimation">5</span> </p>
+          </div>
+          <p class="cart-price">₽5000</p>
+        </div>
+        <div class="new__arrivals-cart">
+          <picture class="new__arrivals-img">
+            <source srcset="./imgs/new-arrivals/bloo.webp" type="image/webp">
+            <img src="./imgs/new-arrivals/bloo.png" alt="Парень с Девушкорй в брендированной одежде" width="295"
+              height="298">
+          </picture>
+          <p class="new__arrivals-text">Футболка с полосами</p>
+          <div class="new__arrivals-box">
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="8" height="14">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart-two"></use>
+            </svg>
+            <p class="new__arrivals-estimation"> 4.5/ <span class="accent__estimation">5</span> </p>
+          </div>
+          <div class="prise-box">
+            <p class="cart-price">₽5000</p>
+            <p class="cart-sale">₽6000</p>
+            <div class="discount">-20%</div>
+          </div>
+        </div>
+        <div class="new__arrivals-cart cart__disablet-one">
+          <picture class="new__arrivals-img">
+            <source srcset="./imgs/new-arrivals/red.webp" type="image/webp">
+            <img src="./imgs/new-arrivals/red.png" alt="Парень с Девушкорй в брендированной одежде" width="295"
+              height="298">
+          </picture>
+          <p class="new__arrivals-text">Клетчатая рубашка</p>
+          <div class="new__arrivals-box">
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="8" height="14">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart-two"></use>
+            </svg>
+            <p class="new__arrivals-estimation"> 4.5/ <span class="accent__estimation">5</span> </p>
+          </div>
+          <p class="cart-price">₽7000</p>
+        </div>
+        <div class="new__arrivals-cart cart__disablet-two">
+          <picture class="new__arrivals-img">
+            <source srcset="./imgs/new-arrivals/orang.webp" type="image/webp">
+            <img src="./imgs/new-arrivals/orang.png" alt="Парень с Девушкорй в брендированной одежде" width="295"
+              height="298">
+          </picture>
+          <p class="new__arrivals-text">Футболка с полосами</p>
+          <div class="new__arrivals-box">
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="8" height="14">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart-two"></use>
+            </svg>
+            <p class="new__arrivals-estimation"> 4.5/ <span class="accent__estimation">5</span> </p>
+          </div>
+          <div class="prise-box">
+            <p class="cart-price">₽6000</p>
+            <p class="cart-sale">₽8000</p>
+            <div class="discount">-30%</div>
+          </div>
+        </div>
+      </div>
+      <button class="new__arrivals-button">
+        <span class="span__button">Посмотреть всё</span>
+      </button>
+    </div>
+  </section>
+  <section class="section section__sale-liders">
+    <div class="container container__sale-liders">
+      <h2 class="new__arrivals-title">ЛИДЕРЫ ПРОДАЖ</h2>
+      <div class="new__arrivals-carts">
+        <div class="new__arrivals-cart levee">
+          <picture class="new__arrivals-img">
+            <source srcset="./imgs/sale-liders/green-1.webp" type="image/webp">
+            <img src="./imgs/sale-liders/green-1.png" alt="Парень с Девушкорй в брендированной одежде" width="295"
+              height="298">
+          </picture>
+          <p class="new__arrivals-text">Рубашка в полоску</p>
+          <div class="new__arrivals-box">
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <p class="new__arrivals-estimation"> 5.0/ <span class="accent__estimation">5</span> </p>
+          </div>
+          <div class="prise-box">
+            <p class="cart-price">₽5000</p>
+            <p class="cart-sale">₽6000</p>
+            <div class="discount">-20%</div>
+          </div>
+        </div>
+
+        <div class="new__arrivals-cart">
+          <picture class="new__arrivals-img">
+            <source srcset="./imgs/sale-liders/tishka-1.webp" type="image/webp">
+            <img src="./imgs/sale-liders/tishka-1.png" alt="Парень с Девушкорй в брендированной одежде" width="295"
+              height="298">
+          </picture>
+          <p class="new__arrivals-text">Футболка «Courage»</p>
+          <div class="new__arrivals-box">
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <p class="new__arrivals-estimation"> 4.5/ <span class="accent__estimation">5</span> </p>
+          </div>
+          <div class="prise-box">
+            <p class="cart-price">₽5000</p>
+          </div>
+        </div>
+        <div class="new__arrivals-cart cart__disablet-one">
+          <picture class="new__arrivals-img">
+            <source srcset="./imgs/sale-liders/kek-1.webp" type="image/webp">
+            <img src="./imgs/sale-liders/kek-1.png" alt="Парень с Девушкорй в брендированной одежде" width="295"
+              height="298">
+          </picture>
+          <p class="new__arrivals-text">Свободные бермуды</p>
+          <div class="new__arrivals-box">
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <p class="new__arrivals-estimation"> 3.0/ <span class="accent__estimation">5</span> </p>
+          </div>
+          <p class="cart-price">₽4000</p>
+        </div>
+        <div class="new__arrivals-cart cart__disablet-two">
+          <picture class="new__arrivals-img">
+            <source srcset="./imgs/sale-liders/lol-1.webp" type="image/webp">
+            <img src="./imgs/sale-liders/lol-1.png" alt="Парень с Девушкорй в брендированной одежде" width="295"
+              height="298">
+          </picture>
+          <p class="new__arrivals-text">Потертые узкие джинсы</p>
+          <div class="new__arrivals-box">
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="15" height="15">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart"></use>
+            </svg>
+            <svg width="8" height="14">
+              <use class="new__arrivals-star" href="./icons/star__icon-sprite.svg#star-cart-two"></use>
+            </svg>
+            <p class="new__arrivals-estimation"> 4.5/ <span class="accent__estimation">5</span> </p>
+          </div>
+          <div class="prise-box">
+            <p class="cart-price">₽7000</p>
+          </div>
+        </div>
+      </div>
+      <button class="new__arrivals-button">
+        <span class="span__button">Посмотреть всё</span>
+      </button>
+    </div>
+  </section>
+  <section class="section section__style">
+    <div class="container container__style">
+      <h2 class="style__tytle">ВЫБЕРИ СВОЙ СТИЛЬ</h2>
+      <div class="style__box-one">
+        <div>
+          <div class="style-one style-hover"><span class=" loll">Свободный</span></div>
+        </div>
+        <div>
+          <div class="style-two style-hover"><span class=" loll">Свободный</span></div>
+        </div>
+        <!-- <div class="style-two style-hover"><span class=" loll">Формальный</span></div> -->
+      </div>
+      <div class="style__box-two">
+        <div class="style-free style-hover"><span class=" loll">Вечерний</span></div>
+        <div class="style-four style-hover"><span class=" loll">Спорт</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="section section__feedback">
+    <div class="container container__feedback">
+      <h2 class="feedback__title">ЧТО О НАС ГОВОРЯТ</h2>
+      <div class="swiper feedback__slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide feedback-slide">
+            <div class="feedback__slide-iner">
+              <picture>
+                <source srcset="./imgs/feedback/slide-one.webp" type="png/webp">
+                <img src="./imgs/feedback/slide-one.png" width="400" height="210" alt="слайд с отзывом">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide feedback-slide">
+            <div class="feedback__slide-iner">
+              <picture>
+                <source srcset="./imgs/feedback/slide-two.webp" type="png/webp">
+                <img src="./imgs/feedback/slide-two.png" width="400" height="210" alt="слайд с отзывом">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide feedback-slide">
+            <div class="feedback__slide-iner">
+              <picture>
+                <source srcset="./imgs/feedback/slide-free.webp" type="png/webp">
+                <img src="./imgs/feedback/slide-free.png" width="400" height="210" alt="слайд с отзывом">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide feedback-slide">
+            <div class="feedback__slide-iner">
+              <picture>
+                <source srcset="./imgs/feedback/slide-one.webp" type="png/webp">
+                <img src="./imgs/feedback/slide-one.png" width="400" height="210" alt="слайд с отзывом">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide feedback-slide">
+            <div class="feedback__slide-iner">
+              <picture>
+                <source srcset="./imgs/feedback/slide-two.webp" type="png/webp">
+                <img src="./imgs/feedback/slide-two.png" width="400" height="210" alt="слайд с отзывом">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide feedback-slide">
+            <div class="feedback__slide-iner">
+              <picture>
+                <source srcset="./imgs/feedback/slide-free.webp" type="png/webp">
+                <img src="./imgs/feedback/slide-free.png" width="400" height="210" alt="слайд с отзывом">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev slider-kek">
+          <svg width="24" height="24">
+            <use class="slder__icon-button-prev" href="./icons/slider-icon.svg#star-left"></use>
+          </svg>
+        </div>
+        <div class="swiper-button-next slider-kek">
+          <svg width="24" height="24">
+            <use class="slder__icon-button-prev" href="./icons/slider-icon.svg#star-right"></use>
+          </svg>
+        </div>
+
+      </div>
+  </section>
+
+
+
+
+
+  <footer class="footer">
+    <div class="container container__footer">
+      <div class="footer__forma">
+        <h2 class="footer__title">
+          БУДЬТЕ В КУРСЕ ВСЕХ ПОСЛЕДНИХ НОВОСТЕЙ
+        </h2>
+        <div class="forma__column">
+          <input class="footer__input" type="email" placeholder="Ваша почта">
+          <button class="footer__button"> Подписаться на рассылку</button>
+        </div>
+      </div>
+
+      <div class="footer-one">
+        <a href="#" class=" logo">
+          <img class="footer__logo" src="./imgs/SHOP.CO.png" width="200" height="100" alt="Логотип Nike">
+        </a>
+        <p class="box-text-one">У нас есть одежда, что подходит вашему стилю и которой можно гордиться. Для женщин и
+          мужчин. </p>
+        <div class="message__footer">
+          <a href="#">
+            <svg width="28" height="28">
+              <use class="footer__icon-button" href="./icons/footer-message-icon.svg#berds"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="28" height="28">
+              <use class="footer__icon-button" href="./icons/footer-message-icon.svg#feys"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="28" height="28">
+              <use class="footer__icon-button" href="./icons/footer-message-icon.svg#insta"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="28" height="28">
+              <use class="footer__icon-button" href="./icons/footer-message-icon.svg#git"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="compani footer__menu">
+        <h3 class="footer__menu">Компания</h3>
+        <a class="footer__text" href="#">О нас</a>
+        <a class="footer__text" href="#">Функции</a>
+        <a class="footer__text" href="#">Работы</a>
+        <a class="footer__text" href="#">Карьера</a>
+      </div>
+      <div class="helpers footer__menu">
+        <h3 class="footer__menu">Помощь</h3>
+        <a class="footer__text" href="#">Поддержка</a>
+        <a class="footer__text" href="#">Доставка</a>
+        <a class="footer__text" href="#">Условия</a>
+        <a class="footer__text" href="#">Политика</a>
+      </div>
+      <div class="helpers footer__questions">
+        <h3 class="footer__menu">Вопросы</h3>
+        <a class="footer__text" href="#">Аккаунт</a>
+        <a class="footer__text" href="#">О доставке</a>
+        <a class="footer__text" href="#">Заказы</a>
+        <a class="footer__text" href="#">Платежи</a>
+      </div>
+      <div class="helpers footer__payments">
+        <h3 class="footer__menu">Ресурсы</h3>
+        <a class="footer__text" href="#">Бесплатные книги</a>
+        <a class="footer__text" href="#">Уроки</a>
+        <a class="footer__text" href="#">Блог</a>
+        <a class="footer__text" href="#">Плейлист на YouTube</a>
+      </div>
+    </div>
+    <div class="container footer__rights">
+      <p class="footer__rights-text">Shop.co © 2000-2023, Все права защищены</p>
+      <div class="footer__rights-icon-kart">
+        <svg width="65" height="49">
+          <use class="footer__rights-icon" href="./icons/foote-icon-paycart.svg#visa"></use>
+        </svg>
+        <svg width="65" height="49">
+          <use class="footer__rights-icon" href="./icons/foote-icon-paycart.svg#master-cart"></use>
+        </svg>
+        <svg width="65" height="49">
+          <use class="footer__rights-icon" href="./icons/foote-icon-paycart.svg#paypal"></use>
+        </svg>
+        <svg width="65" height="49">
+          <use class="footer__rights-icon" href="./icons/foote-icon-paycart.svg#apple-pay"></use>
+        </svg>
+        <svg width="65" height="49">
+          <use class="footer__rights-icon" href="./icons/foote-icon-paycart.svg#googl-pay"></use>
+        </svg>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
