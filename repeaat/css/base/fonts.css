@@ -1,0 +1,29 @@
+@font-face {
+    font-family: ArchivoBlack;
+    src:
+        local("ArchivoBlack"), local("ArchivoBlack"),
+        url("../../fonts/ArchivoBlack-Regular.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: Pliant-VariableFont;
+    src:
+        local("Pliant-VariableFont "), local("Pliant-VariableFont "),
+        url("../../fonts/Pliant-VariableFont_wdth\,wght.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: NotoSans-Variable;
+    src:
+        local("NotoSans-Variable"), local("NotoSans-Variable"),
+        url("../../fonts/NotoSans-VariableFont_wdth\,wght.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

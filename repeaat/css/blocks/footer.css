@@ -1,0 +1,149 @@
+.footer {
+
+  /* margin-top: 200px; */
+  width: 100%;
+  height: 449px;
+  background: #f0f0f0;
+}
+
+.footer__container {
+  padding-top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 50px;
+
+}
+
+@media(width < 992px) {
+  .footer__container {
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+}
+
+@media(width < 768px) {
+  .footer__container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+}
+
+@media(width <=500px) {
+  .footer__menu {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 150px;
+  }
+}
+
+
+
+.footer-one {
+  width: 248px;
+  height: 177px;
+}
+
+@media(width <600px) {
+  .footer-one {
+    width: 100%;
+    height: 177px;
+  }
+}
+
+.box-text-one {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: #00000099;
+  margin: 25px 0 25px 0;
+}
+
+.footer__menu-logo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 113%;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+@media(width <=992px) {
+  .footer__menu-logo {
+    margin: 20px;
+  }
+}
+
+@media(width <=500px) {
+  .footer__menu-logo {
+    padding: 0;
+    margin: 24px 5px 30px 5px;
+  }
+}
+
+.footer__item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 109%;
+  color: #11111199;
+}
+
+@media(width <=768px) {
+  .footer__item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #00000099;
+  }
+}
+
+@media(width <=500px) {
+  .footer__item-text {
+    font-weight: 400;
+    font-size: 12px;
+    color: #00000099;
+  }
+}
+
+.footer__rights {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-top: 1px solid #0000001a;
+}
+
+@media(width <=670px) {
+  .footer__rights {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .footer__rights-text{ 
+    margin-top: 10px;
+  }
+}
+
+
+
+.footer__rights-text {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  color: #00000099;
+}

@@ -1,0 +1,246 @@
+.section__style {
+  margin-top: 80px;
+  padding-bottom: 10px;
+}
+
+@media(width >1440px) {
+  .container__style {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    height: auto;
+    background: #f0f0f0;
+  }
+}
+
+@media(width <=1440px) {
+  .container__style {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    height: auto;
+    background: #f0f0f0;
+  }
+}
+
+.style__tytle {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+  color: #000;
+  margin-top: 70px;
+  margin-bottom: 44px;
+}
+
+@media(width <=768px) {
+  .style__tytle {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: 28px;
+  }
+}
+
+@media(width <=992px) {
+  .style__tytle {
+    width: 58%;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: 28px;
+  }
+}
+
+
+.style__box-one,
+.style__box-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px;
+}
+
+/* @media(width ) */
+
+
+
+.style__cart-one {
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 20px;
+  width: 407px;
+  height: 289px;
+  background: #fff;
+}
+
+.style__cart-two {
+  cursor: pointer;
+  position: relative;
+  border-radius: 20px;
+  width: 684px;
+  height: 289px;
+}
+
+@media(width <=1200px) {
+  .style__cart-two {
+    width: 484px;
+    height: 289px;
+  }
+}
+
+@media(width <=992px) {
+  .style__cart-two {
+    width: 407px;
+    height: 289px;
+  }
+}
+
+.loll {
+  position: absolute;
+  top: 25px;
+  left: 36px;
+  color: #000;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.cart-one {
+  height: 289px;
+  background-image: url(../../imgs/style-content/man-tishka.png);
+  background-position: 10px -125px;
+  background-repeat: no-repeat;
+  /* filter: blur(5px); */
+  border-radius: 20px;
+}
+
+.cart-two {
+  height: 289px;
+  background-image: url(../../imgs/style-content/man-bond.png);
+  background-position: -50px -125px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.cart-free {
+
+  height: 289px;
+  background-image: url(../../imgs/style-content/woman.webp);
+  background-position: 0px -145px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+
+}
+
+.cart-four {
+  height: 289px;
+  background-image: url(../../imgs/style-content/man-sport.webp);
+  background-position: 50px -145px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+}
+
+@media(width <=906px) {
+
+  .style__cart-two,
+  .style__cart-one {
+    width: 307px;
+    height: 289px;
+  }
+
+  .cart-two,
+  .cart-free {
+    background-position: -200px -125px;
+  }
+
+}
+
+@media(width <=700px) {
+
+  .style__box-one,
+  .style__box-two {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .style__cart-one {
+    width: 407px;
+    height: 289px;
+  }
+
+  .style__cart-two {
+    width: 407px;
+    height: 289px;
+  }
+
+  .cart-two,
+  .cart-free {
+    background-position: -200px -125px;
+  }
+
+  .cart-two,
+  .cart-free {
+    filter: blur(2px);
+  }
+
+  .cart-one,
+  .cart-four {
+    filter: blur(2px);
+  }
+
+}
+
+@media(width <=466px) {
+
+  .style__box-one,
+  .style__box-two {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .style__cart-one {
+
+    width: 307px;
+    height: 289px;
+  }
+
+  .style__cart-two {
+    width: 307px;
+    height: 289px;
+  }
+
+  .cart-two,
+  .cart-free {
+    background-position: -200px -125px;
+    filter: blur(2px);
+  }
+
+  .cart-one,
+  .cart-four {
+    filter: blur(2px);
+  }
+
+}
+
+@media(width <=768px) {
+  .container__style {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    height: auto;
+    background: #f0f0f0;
+  }
+}
